@@ -1,0 +1,69 @@
+#program to find whethee student is pass or fail
+sno=int(input("enter student rollno:"))
+sname=input("enter the student name")
+sbranch=input("Group of the student:")
+sec=input("year and section:")
+print('marks scored')
+s1=int(input('marks obtained in english:'))
+s2=int(input('marks obtained in tel or hin:'))
+s3=int(input('marks obtained in G1:'))#G-->GROUP SUBJECT
+s4=int(input('marks obtained in G2:'))
+s5=int(input('marks obtained in G3:'))
+s6=int(input('marks obtained in LSC:'))#LSL-->life skill course
+s7=int(input('marks obtained in SD:'))#SD-->SKILL DEVELOPMENT COURSE
+if (s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35):
+    print('student is PASS')
+else:
+    print('student is FAIL')
+
+
+
+
+Output:
+enter student rollno:
+
+01 
+
+enter the student name
+
+A.Avinash 
+
+Group of the student:
+
+MPCS 
+
+year and section:
+
+2 and B 
+
+marks scored marks obtained in english:
+
+88 
+
+marks obtained in tel or hin:
+
+79 
+
+marks obtained in G1:
+
+90 
+
+marks obtained in G2:
+
+80 
+
+marks obtained in G3:
+
+94 
+
+marks obtained in LSC:
+
+34 
+
+marks obtained in SD:
+
+65 
+
+student is FAIL 
+
+
